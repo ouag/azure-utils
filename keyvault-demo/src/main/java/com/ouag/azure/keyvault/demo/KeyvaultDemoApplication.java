@@ -1,4 +1,4 @@
-package com.ouag.demo.keyvaultdemo;
+package com.ouag.azure.keyvault.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

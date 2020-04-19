@@ -1,4 +1,4 @@
-package com.ouag.demo.keyvaultdemo;
+package com.ouag.azure.keyvault.demo;
 
 import com.azure.core.credential.TokenCredential;
 import com.azure.identity.ClientSecretCredentialBuilder;

@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.ouag.demo</groupId>
+    <groupId>com.ouag.azure</groupId>
     <artifactId>keyvault-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>keyvault-demo</name>

@@ -1,4 +1,4 @@
-package com.ouag.demo.keyvaultdemo;
+package com.ouag.azure.keyvault.demo;
 
 import com.azure.security.keyvault.secrets.SecretClient;
 import com.azure.security.keyvault.secrets.models.SecretProperties;
