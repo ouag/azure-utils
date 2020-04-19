@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: azure-key-vault-demo
+
+server:
+  port: 8080
+
+
+
