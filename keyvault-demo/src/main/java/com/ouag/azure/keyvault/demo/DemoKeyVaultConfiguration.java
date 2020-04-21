@@ -1,6 +1,7 @@
 package com.ouag.azure.keyvault.demo;
 
 import com.azure.core.credential.TokenCredential;
+import com.azure.identity.ClientSecretCredential;
 import com.azure.identity.ClientSecretCredentialBuilder;
 import com.azure.identity.DefaultAzureCredentialBuilder;
 import com.azure.security.keyvault.secrets.SecretClient;
@@ -18,16 +19,15 @@ public class DemoKeyVaultConfiguration {
     public SecretClient getSecretClient(TokenCredential getTokenCredential) {
         return new SecretClientBuilder()
                 .vaultUrl("https://demo-keyvault-mo.vault.azure.net/")
-            .credential(new DefaultAzureCredentialBuilder().build() )
+            .credential(getTokenCredential)
                 .buildClient();
     }
 
     @Bean
-    public TokenCredential getTokenCredential(@Value("azure.keyvault.client-id") String clientId,
-                                              @Value("azure.keyvault.client-key") String clientKey){
+    public TokenCredential getTokenCredential() {
         return new ClientSecretCredentialBuilder()
-                .clientSecret(clientKey)
-                .clientId(clientId)
+                .clientSecret("4dbd6bdb-9e8d-4b4d-b7b0-766e9b1c0a05")
+                .clientId("f416d7a3-910d-4a38-b116-41d6ae9de20f")
                 .tenantId("5f483c8c-ae02-4ca2-a592-c959679af7ed")
                 .build();
     }
