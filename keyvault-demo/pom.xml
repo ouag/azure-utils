@@ -76,7 +76,7 @@
                 <configuration>
 
                     <to>
-                        <image>${project.artifactId}:v1</image>
+                        <image>${project.artifactId}:v2</image>
                     </to>
                 </configuration>
             </plugin>

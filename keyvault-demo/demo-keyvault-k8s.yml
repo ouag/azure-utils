@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: demokeyvault
-          image: commonregistryacr.azurecr.io/keyvault-demo:v1
+          image: commonregistryacr.azurecr.io/keyvault-demo:v2
           imagePullPolicy: IfNotPresent
       restartPolicy: Always
   selector:
