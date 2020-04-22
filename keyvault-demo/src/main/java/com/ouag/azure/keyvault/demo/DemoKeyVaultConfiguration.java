@@ -26,9 +26,9 @@ public class DemoKeyVaultConfiguration {
 //    @Bean
 //    public TokenCredential getTokenCredential() {
 //        return new ClientSecretCredentialBuilder()
-//                .clientSecret("4dbd6bdb-9e8d-4b4d-b7b0-766e9b1c0a05")
-//                .clientId("f416d7a3-910d-4a38-b116-41d6ae9de20f")
-//                .tenantId("5f483c8c-ae02-4ca2-a592-c959679af7ed")
+//                .clientSecret("*")
+//                .clientId("*")
+//                .tenantId("*")
 //                .build();
 //    }
 
